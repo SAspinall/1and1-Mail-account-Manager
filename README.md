@@ -1,10 +1,11 @@
 # 1&1 Mail account Manager ##
 This tool allows to create, list and delete email accounts on the Hosting provider 1&1.
+Forked for UK accounts from sysadminstory's project.
 
 ## Installation ##
 To install this tool, simply clone this GIT repository :
 
-    git clone https://github.com/sysadminstory/1and1-Mail-account-Manager.git
+    git clone https://github.com/SAspinall/1and1-Mail-account-Manager.git
 
 ## Usage
 
