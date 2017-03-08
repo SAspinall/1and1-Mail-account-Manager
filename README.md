@@ -43,7 +43,7 @@ Example :
 domain.com, contact, John Smith, John, Smith,V3ryC0o1Passw0rd!
 
 ## Limitation
-Currently, only the French (1and1.fr) accounts are supported.
+This fork is for the UK site.
 You must use a domain name to log in : customer number are not supported
 
 ## Contributing
