@@ -11,23 +11,23 @@ class EmailAccountManager(object):
     """Class to manipulaote amil accounts on 1&1 Control Panel"""
 
     # 1&1 Control Panel URL
-    loginURL = 'https://account.1and1.fr/'
-    createEmailURL = 'https://clients.1and1.fr/create-basic-email'
-    listEmailURL = 'https://clients.1and1.fr/CenterCommunication?'\
+    loginURL = 'https://account.1and1.co.uk/'
+    createEmailURL = 'https://my.1and1.co.uk/create-basic-email'
+    listEmailURL = 'https://my.1and1.co.uk/CenterCommunication?'\
         '__render_href=txt/pages/CenterCommunication.xml&__render_part='\
         'table-component-body&__render_module=frontend-common&page.size='\
         '{size}&page.page={page}'
-    pageCountURL = 'https://clients.1and1.fr/CenterCommunication?'\
+    pageCountURL = 'https://my.1and1.co.uk/CenterCommunication?'\
         '__render_href=txt/pages/CenterCommunication.xml&__render_part='\
         'email-overview-pagination-content&__render_module='\
         'frontend-common&page.size={size}&page.page={page}&'\
         '__reuse=1488715767183.__renderinclude__'
-    deleteURL = 'https://clients.1and1.fr/CenterCommunication?'\
+    deleteURL = 'https://my.1and1.co.uk/CenterCommunication?'\
         '__render_href=txt/pages/CenterCommunication.xml&__render_part='\
         'table-component-body&__render_module=frontend-common&'\
         '__sendingdata=1&__forcestop=true&__CMD%5B%5D%3ASUBWRP=delete&'\
         'delete.id={id}'
-    accountDetailsURL = 'https://clients.1and1.fr/Email_Summary?id={id}'
+    accountDetailsURL = 'https://my.1and1.co.uk/Email_Summary?id={id}'
 
     userAgent = 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:51.0)'\
         ' Gecko/20100101 Firefox/51.0'  # User agent used during HTTP request
